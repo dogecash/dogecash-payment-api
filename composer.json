@@ -1,20 +1,21 @@
 {
-    "name": "weoka/dogec-module",
-    "description": "DogeCash package for the Buy Bridge",
+    "name": "dogecash/dogecash-payment-api",
+    "description": "Dogecash payment API",
     "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Weoka",
-            "email": "daniel@weoka.pro"
-        }
-    ],
     "require": {
-        "guzzlehttp/guzzle": "^7.3"
+        "weoka/dogec-module": "^1.1"
     },
+    "license": "MIT",
     "autoload": {
         "psr-4": {
-          "DOGECModule\\": "lib/"
+            "Dogecash\\DogecashPaymentApi\\": "lib/"
         }
-    }
+    },
+    "authors": [
+        {
+            "name": "Nugetzrul3",
+            "email": "popingcorn12@gmail.com"
+        }
+    ]
 }
+
