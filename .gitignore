@@ -7,9 +7,6 @@ vendor
 !composer.json
 !LICENSE
 
-# Whitelist library code
-!lib/
-
 # Macos shitty files
 .DS_Store
 .AppleDouble
