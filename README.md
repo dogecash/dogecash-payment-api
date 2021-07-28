@@ -35,8 +35,10 @@ Returns if unsuccessful:
 
 Returns if undetected:
 ```json
+{
   "status": <string>,
   "message": <string>
+}
 ```
 
 Returns if detected:
