@@ -82,13 +82,13 @@ else if (!array_key_exists("rate", $_GET) and array_key_exists("address", $_GET)
     }
 
     $response = $dogec->existsTransaction($address, $amount, $timestamp);
-    if (!$response) {
+    if (!is_array($response)) {
         echo json_encode([
             "status" => "failed"
         ]);
         return;
     }
-    if ($response['exists']) {
+    else if ($response['exists']) {
         $trasaction = $response['txid'];
         $confirmations = $dogec->checkConfirmations($trasaction);
 
