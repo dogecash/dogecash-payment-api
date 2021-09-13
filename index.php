@@ -1,5 +1,7 @@
 <?php
 
+header("Access-Control-Allow-Origin: *");
+
 require_once('vendor/autoload.php');
 
 use DOGECModule\DOGECModule;
@@ -126,4 +128,3 @@ else {
         "error" => "Invalid Request"
     ]);
 }
-?>
