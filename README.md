@@ -1,4 +1,4 @@
-# DogeCash Payment API and Checker
+# Non-Custodial DogeCash Payment API and Checker
 
 ## Methods
 
